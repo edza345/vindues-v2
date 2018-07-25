@@ -518,7 +518,7 @@ $(document).ready(function() {
         finalOrder.details.totalPrice = totalPrice;
         finalOrder.details.doubleMod = (doubleModOn == false ? 'Kun udvendig' : 'Indvendig og udvendig');
         finalOrder.details.doubleMod2 = (doubleModOn2 == false ? 'Enkelt terrassedør' : 'Dobbelt terrassedør');
-        finalOrder.details.existingStamp = (existing == false ? 'Eksisterende klip(Kontroller gyldigheden)' : 'Nej');
+        finalOrder.details.existingStamp = (existing == false ? 'Nej' : 'Eksisterende klip(Kontroller gyldigheden)');
         finalOrder.details.stampMod = (stampMod == false ? 'Intet klip' : 'købe klip');
 
 
