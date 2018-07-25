@@ -409,7 +409,7 @@ $(document).ready(function() {
 
     function forceManualRecalc() {
         $(".price").addClass("calculate");
-        $(".price").html("BERÆR PRIS");
+        $(".price").html("Beregn priset");
     }
     // Recalculate prices
     function recalculate() {
